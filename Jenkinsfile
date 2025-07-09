@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    stages {
+git branch: 'main', url: 'https://github.com/UTSAV271223/nodejs-docker-cicd.git'    stages {
         stage('Clone') {
             steps {
                 git 'https://github.com/UTSAV271223/nodejs-docker-cicd.git'
